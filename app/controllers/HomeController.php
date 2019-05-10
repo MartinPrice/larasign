@@ -1,6 +1,7 @@
 <?php
 
-class HomeController extends BaseController {
+class HomeController extends BaseController
+{
 
 	/*
 	|--------------------------------------------------------------------------
@@ -17,7 +18,9 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
+		//$garden = new EmptyGarden(20, 30);
+		//$items = $garden->items();
+
 		return View::make('hello');
 	}
-
 }

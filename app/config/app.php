@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL ^ E_DEPRECATED);
+
 return array(
 
 	/*
@@ -13,7 +15,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +80,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'SCX3l0dtGYZ0VTO6dxWHnzFB7GlUBpZk',
 
 	/*
 	|--------------------------------------------------------------------------
